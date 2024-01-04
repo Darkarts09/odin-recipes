@@ -1,5 +1,6 @@
 h1 {
-  color: red;
+  color: black;
+  text-align: center;
 }
 
 .first-button,
@@ -17,5 +18,10 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.recipe-links {
+  background-color: white;
   text-align: center;
 }
