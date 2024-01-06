@@ -107,3 +107,25 @@ h1 {
 /** padding increases the space between the border of a box and the content of the box.
 margin increases the space between the borders of a box and the borders of adjacent boxes.
 border adds space (even if it’s only a pixel or two) between the margin and the padding.**/
+
+form {
+  margin-left: 1em;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.name,
+.email,
+.password {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.login-button {
+  margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
